@@ -1,11 +1,13 @@
-# Ignore everything
-*
+# Unreal specific ignores
+Binaries/
+Build/
+Debug/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
 
-# But don't ignore these specific directories/files
-!Source/
-!.gitignore
-!README.md
-
-# Ignore certain files even in Source
-Source/**/Intermediate/
-Source/**/Binaries/
+# Keep Source files
+!Source/**/*.cpp
+!Source/**/*.h
