@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But don't ignore these specific directories/files
+!Source/
+!.gitignore
+!README.md
+
+# Ignore certain files even in Source
+Source/**/Intermediate/
+Source/**/Binaries/
