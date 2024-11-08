@@ -1,2 +1,6 @@
 # TFTBenchMaker
-Creates a smaller TFT Board for up to 6 players.
+This Unreal Engine 5 project creates 6 TFT-like boards, including bench tiles, economic orbs, and battle tiles. 
+
+Used Unreal Engine 5, Visual Studio Code, and Blender.
+
+
